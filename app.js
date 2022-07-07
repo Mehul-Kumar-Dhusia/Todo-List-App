@@ -136,6 +136,6 @@ app.get("/about", function(req, res){
   res.render("about");
 });
 
-app.listen(process.env.PORT, function() {
+app.listen(8000, function() {
   console.log("Server started on port 8000");
 });
